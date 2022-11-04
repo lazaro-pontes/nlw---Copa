@@ -5,6 +5,10 @@ async function start() {
         logger: true,
     })
 
+    fastify.get('/bolao/contagem', () => {
+        return { count: 0 }
+    })
+
     await fastify.listen({ port: 3333 })
 }
 
