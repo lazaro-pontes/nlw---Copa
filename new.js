@@ -1,1 +1,1 @@
-console.log("aceita")
+console.log("aceita");
